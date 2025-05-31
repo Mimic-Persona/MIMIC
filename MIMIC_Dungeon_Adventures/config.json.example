@@ -1,0 +1,7 @@
+{
+  "OPENAI_API_KEY": "sk-proj-XXX....",
+  "MIMIC_PERSONALITY": "achievement",
+  "PORT": 8080,
+  "REPORT_PREFIX": "achievement1",
+  "IS_SMART_MONKEY": true
+}

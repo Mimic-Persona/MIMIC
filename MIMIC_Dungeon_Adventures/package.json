@@ -1,0 +1,21 @@
+{
+  "name": "mimin_dungeon_adventures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mimic-Persona/MIMIC.git"
+  },
+  "private": true,
+  "dependencies": {
+    "chromadb": "^1.10.5",
+    "dotenv": "^16.4.5",
+    "isomorphic-fetch": "^3.0.0",
+    "openai": "^4.47.1",
+    "ws": "^8.17.0"
+  }
+}

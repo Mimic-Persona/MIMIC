@@ -1,0 +1,6 @@
+public class PickUp {
+    // Pick up the item at the player's current location
+    public static boolean pickUp() {
+        return map.getPlayer().pickUpItem();
+    }
+}

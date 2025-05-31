@@ -1,0 +1,10 @@
+23 9
+   ###############
+  #ccccccccccccccc##
+ #ccccccccccc@cccccc##
+ #ccccccccccccccccccc##
+ #cccccccccccccccccccc##
+  ##cccccccccccccccccc##
+   ##cccwcccccccccccc##
+    ##ccccccccccccc##
+     ##############

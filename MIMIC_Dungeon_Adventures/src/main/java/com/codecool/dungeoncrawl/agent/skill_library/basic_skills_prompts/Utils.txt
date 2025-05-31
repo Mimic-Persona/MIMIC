@@ -1,0 +1,29 @@
+public class Utils {
+    public static boolean isValid(Cell cell) {
+        return cell.getX() >= 0 && cell.getX() < map.getWidth() && cell.getY() >= 0 && cell.getY() < map.getHeight();
+    }
+
+    public static boolean isValid(int x, int y) {
+        return x >= 0 && x < map.getWidth() && y >= 0 && y < map.getHeight();
+    }
+
+    public static boolean isObstacle(Cell cell) {
+        return map.getObstacles().contains(cell.getType()) && !NAMES.contains(map.getPlayer().getName());
+    }
+
+    public static boolean isObstacle(int x, int y) {
+        return map.getObstacles().contains(map.getCell(x, y).getType()) && !NAMES.contains(map.getPlayer().getName());
+    }
+
+    public static boolean isEnemy(Cell cell) {
+        return cell.getActor() != null;
+    }
+
+    public static boolean isEnemy(int x, int y) {
+        return map.getCell(x, y).getActor() != null;
+    }
+
+    public static int getDistance(Cell a, Cell b) {
+        return Math.abs(a.getX() - b.getX()) + Math.abs(a.getY() - b.getY());
+    }
+}

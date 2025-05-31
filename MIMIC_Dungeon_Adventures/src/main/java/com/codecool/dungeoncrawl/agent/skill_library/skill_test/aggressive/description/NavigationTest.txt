@@ -1,0 +1,5 @@
+public class NavigationTest {
+	public static void navigationTest() {
+		// 
+	}
+}

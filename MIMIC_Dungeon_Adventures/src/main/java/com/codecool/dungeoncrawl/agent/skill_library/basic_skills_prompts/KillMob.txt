@@ -1,0 +1,35 @@
+public class KillMob {
+
+    // Attack the mob on the given cell until it is dead, or it is unreachable; even it is moving.
+    // Never use navigation before calling this method since this method contains with navigation.
+    public static boolean killMob(int x, int y) {
+        Cell cell = map.getCell(x, y);
+        return killMob(cell.getActor());
+    }
+
+    // Attack the mob until it is dead, or it is unreachable; even it is moving.
+    // Never use navigation before calling this method since this method contains with navigation.
+    public static boolean killMob(Actor mob) {
+            if (mob == null || !map.getMobs().contains(mob) || mob.getHealth() <= 0) {
+                GLog.e("basic_skill.KillMob:error: The mob is not valid.");
+                return false;
+            }
+
+            while (mob.getHealth() > 0 && map.getPlayer().getHealth() > 0) {
+                List<Cell> path = findPathIgnoreMobs(mob.getCell());
+
+                if (path.isEmpty()) {
+                    GLog.e("basic_skill.KillMob:error: The mob is unreachable.");
+                    return false;
+                }
+
+                Cell next = path.get(1);
+                map.getPlayer().move(next.getX() - map.getPlayer().getX(), next.getY() - map.getPlayer().getY());
+
+                // If the player is blocked by a closed door, try once and stop
+                if (next.getType().equals(CellType.CLOSE)) return false;
+            }
+            return true;
+    }
+}
+

@@ -1,0 +1,5 @@
+public class PickUpKey {
+	public static void pickUpKey() {
+		// The function attempts to pick up a key at a specified position by first logging the task, then killing any ghost at that position, navigating to the key's location if the ghost is successfully killed, and finally attempting to pick up the key while logging the success or failure of each step.
+	}
+}

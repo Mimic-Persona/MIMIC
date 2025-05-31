@@ -1,0 +1,71 @@
+public class Navigate {
+    private static final int[][] DIRECTIONS = {
+            {0, 1}, {1, 0}, {0, -1}, {-1, 0} // Right, Down, Left, Up
+    };
+
+    // Navigate to the given cell using A* pathfinding algorithm, if a mob is on the way, the player will have a fight with it
+    public static boolean navigateIgnoreMobs(Cell end) {
+        Cell start = map.getPlayer().getCell();
+        List<Cell> path = findPathIgnoreMobs(end);
+
+        if (path.isEmpty()) {
+            GLog.e("No path found from " + start.getCellPosStr() + " to " + end.getCellPosStr() + ".");
+            return false;
+        }
+
+        for (int i = 1; i < path.size(); i++) {
+            Cell next = path.get(i);
+
+            // Try until the player reaches the next cell
+            while (map.getPlayer().getCell().getX() != next.getX() || map.getPlayer().getCell().getY() != next.getY()) {
+                map.getPlayer().move(next.getX() - map.getPlayer().getX(), next.getY() - map.getPlayer().getY());
+            }
+        }
+
+        return true;
+    }
+
+    public static List<Cell> findPathIgnoreMobs(Cell end) {
+        Cell start = map.getPlayer().getCell();
+        map.clearCells();
+
+        Queue<Cell> queue = new LinkedList<>();
+        boolean[][] visited = new boolean[map.getWidth()][map.getHeight()];
+        queue.add(start);
+        visited[start.getX()][start.getY()] = true;
+
+        while (!queue.isEmpty()) {
+            Cell current = queue.poll();
+
+            // If we've reached the end node, reconstruct the path
+            if (current.getX() == end.getX() && current.getY() == end.getY()) {
+                return reconstructPath(current);
+            }
+
+            for (int[] direction : DIRECTIONS) {
+                int newX = current.getX() + direction[0];
+                int newY = current.getY() + direction[1];
+
+                if (isValid(newX, newY) && !visited[newX][newY] && !isWall(newX, newY)) {
+                    visited[newX][newY] = true;
+
+                    Cell newCell = map.getCell(newX, newY);
+                    newCell.parent = current;
+                    queue.add(newCell);
+                }
+            }
+        }
+
+        return Collections.emptyList(); // No path found
+    }
+
+    private static List<Cell> reconstructPath(Cell end) {
+        List<Cell> path = new ArrayList<>();
+        for (Cell cell = end; cell != null; cell = cell.parent) {
+            path.add(cell);
+        }
+        Collections.reverse(path);
+        return path;
+    }
+}
+
