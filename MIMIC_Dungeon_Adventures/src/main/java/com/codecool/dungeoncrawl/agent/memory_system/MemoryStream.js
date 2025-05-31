@@ -397,20 +397,24 @@ class MemoryStream {
 
         this.memoryCount++;
 
-        if (!await this.vectorStoreR.add({
-            ids: [(this.memoryCount - 1).toString()],
-            metadatas: [{ memoryID: (this.memoryCount - 1).toString(), task: task, memoryType: memoryType}],
-            documents: [previousStatus],
-        })) {
-            sendMessage(this.socket, `${BOT_ERR_MSG} Failed to store memory ${(this.memoryCount - 1).toString()} in vectorStoreR.`)
+        try {
+            await this.vectorStoreR.add({
+                ids: [(this.memoryCount - 1).toString()],
+                metadatas: [{ memoryID: (this.memoryCount - 1).toString(), task: task, memoryType: memoryType}],
+                documents: [previousStatus],
+            });
+        } catch (e) {
+            sendMessage(this.socket, `${BOT_ERR_MSG} Failed to store memory ${(this.memoryCount - 1).toString()} in vectorStoreR. Error: ${e.message}`);
         }
 
-        if (!await this.vectorStoreP.add({
-            ids: [(this.memoryCount - 1).toString()],
-            metadatas: [{ memoryID: (this.memoryCount - 1).toString(), task: task, memoryType: memoryType}],
-            documents: [analysis],
-        })) {
-            sendMessage(this.socket, `${BOT_ERR_MSG} Failed to store memory ${(this.memoryCount - 1).toString()} in vectorStoreP.`)
+        try {
+            await this.vectorStoreP.add({
+                ids: [(this.memoryCount - 1).toString()],
+                metadatas: [{ memoryID: (this.memoryCount - 1).toString(), task: task, memoryType: memoryType}],
+                documents: [previousStatus],
+            });
+        } catch (e) {
+            sendMessage(this.socket, `${BOT_ERR_MSG} Failed to store memory ${(this.memoryCount - 1).toString()} in vectorStoreP. Error: ${e.message}`);
         }
 
         // We don't consider badPlans

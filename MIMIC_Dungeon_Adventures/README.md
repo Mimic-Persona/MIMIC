@@ -31,6 +31,7 @@ Make sure your working directory is set to the `MIMIC` directory, as all command
 3. Install the required dependencies by running the following command:
 
     ```bash
+    npm install chromadb@1.10.5
     npm install
     ```
 
