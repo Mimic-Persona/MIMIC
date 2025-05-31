@@ -204,6 +204,3 @@ java.net.ConnectException: Connection refused: connect
 <br>
 ![dungeon3](https://github.com/stelmaszczykadrian/Dungeon-Adventures/assets/106514178/228c324a-46cb-43ed-b295-7b7c0946fa1f)
 <br>
-
-# Game States Flowchart
-![DA_Game_States](https://github.com/user-attachments/assets/236de549-c7c6-4053-ada8-634681d74594)
