@@ -1,0 +1,21 @@
+Here's an example response with mob [2, 5], potion[5, 4]
+{
+    "reasoning": "As a caution player, I really want to pick up the potion at [5, 4], but there is a mob at [3, 5]. I should eliminate the mob first to avoid future danger. I will throw a throwing weapon onto the mob while I am far away to eliminate it. I will then pick up the potion at [5, 4].",
+    "task": "Throw throwing_stone to [2, 5]",
+    "action": "throw",
+    "tile": "[2, 5]",
+    "item1": "throwing_stone",
+    "item2": "null",
+    "waitTurns": "-1",
+}
+
+Here's an example response with mob [2, 5], dewdrop[5, 4]
+{
+    "reasoning": "As a caution player, I really want to pick up the dewdrop at [5, 4], but there is a mob at [3, 5]. After considering the situation, the dewdrop is not worth the risk of getting attacked by the mob. I will avoid picking up the dewdrop and move to a safer location that is far away from the mob.",
+    "task": "Act [8, 12]",
+    "action": "act",
+    "tile": "[8, 12]",
+    "item1": "null",
+    "item2": "null",
+    "waitTurns": "-1",
+}

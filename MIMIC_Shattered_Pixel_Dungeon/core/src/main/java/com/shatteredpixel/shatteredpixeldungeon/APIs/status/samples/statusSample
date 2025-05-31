@@ -1,0 +1,123 @@
+{"currTalents":[{
+
+	"iron_will":{"tier":1,"level":0,"description":"+1: The max shield provided by the Warrior's seal is increased by 1.+2: The max shield provided by the Warrior's seal is increased by 2."},
+
+	"test_subject":{"tier":1,"level":0,"description":"+1: Whenever the Warrior identifies an item, he heals for 2 HP.+2: Whenever the Warrior identifies an item, he heals for 3 HP."},
+
+	"hearty_meal":{"tier":1,"level":0,"description":"+1: Eating heals the Warrior for 2 HP when he is below 50% health, and 3 HP when he is below 25% health.+2: Eating heals the Warrior for 3 HP when he is below 50% health, and 5 HP when he is below 25% health."},
+
+	"veterans_intuition":{"tier":1,"level":0,"description":"+1: The Warrior identifies weapons 1.75x faster and armor 2.5x faster.+2: The Warrior identifies weapons 2.5x faster and armor when he equips it."}}],"strength":10,"level":1,"keys":{},
+
+"health":13,
+
+"maxExperience":10,
+
+"experience":5,
+
+"gold":0,
+
+"equipments":{
+
+	"cloth_armor":{"quantity":1,"identified":true,"level":0,"STRReq":10,"description":"This lightweight armor offers basic protection.This tier-1 armor blocks 0-2 damage and requires 10 strength to use properly.The Warrior's broken seal is attached to this armor, it is providing him up to 1 shielding.","category":"armor"},
+
+	"worn_shortsword":{"quantity":1,"identified":true,"level":0,"STRReq":10,"description":"A quite short sword, worn down through heavy use. It is both weaker and a bit lighter than a shortsword in better condition.This tier-1 melee weapon deals 1-10 damage and requires 10 strength to use properly.","category":"weapon"}},
+
+"environment":
+
+	[{"(door, null)":[12,7]},
+    {"(chasm, null)":[16,8]},
+    {"(chasm, null)":[18,8]},
+    {"(door, null)":[22,8]},
+    {"(chasm, null)":[15,9]},
+    {"(chasm, null)":[16,9]},
+    {"(chasm, null)":[18,9]},
+    {"(chasm, null)":[19,9]},
+    {"(chasm, null)":[15,10]},
+    {"(chasm, null)":[19,10]},
+    {"(door, null)":[12,11]},
+    {"(empty, marsupial_rat(8/8, SLEEPING))":[20,11]},
+    {"(trap, worn_dart_trap)":[21,11]},
+    {"(high_grass, null)":[6,12]},
+    {"(door, null)":[9,12]},
+    {"(chasm, null)":[15,12]},
+    {"(chasm, null)":[19,12]},
+    {"(trap, worn_dart_trap)":[20,12]},
+    {"(empty, marsupial_rat(8/8))":[21,12]},
+    {"(grass, jade_potion)":[6,13]},
+    {"(chasm, null)":[15,13]},
+    {"(chasm, null)":[16,13]},
+    {"(chasm, null)":[18,13]},
+    {"(chasm, null)":[19,13]},
+    {"(empty, marsupial_rat(8/8))":[20,13]},
+    {"(chasm, null)":[16,14]},
+    {"(empty_sp, marsupial_rat(8/8, HUNTING), skeleton)":[17,14]},
+    {"(chasm, null)":[18,14]},
+    {"(empty, marsupial_rat(8/8, HUNTING))":[19,14]},
+    {"(empty, warrior)":[18,15]},
+    {"(door, null)":[4,16]},
+    {"(door, null)":[22,16]},
+    {"(door, null)":[13,17]},
+    {"(door, null)":[16,17]},
+    {"(entrance, null)":[3,18]},
+    {"(door, null)":[4,21]}],
+
+"depth":1,
+
+"tier":1,
+
+"maxHealth":20,
+
+"buffs":{
+
+	"starving":{"description":"You're so hungry it hurts.Hunger slowly increases as you spend time in the dungeon, eventually you will begin to starve. While starving you will slowly lose health instead of regenerating it.Rationing is important! If you have health to spare starving isn't a bad idea if it means there will be more food later. Effective rationing can make food last a lot longer!","type":"NEUTRAL"}},
+
+
+"items":{
+
+	"jade_potion":{"quantity":1,"identified":false,"level":0,"description":"unknown","category":"potion"},
+
+    "scroll_of_laguz":{"quantity":1,"identified":false,"level":0,"description":"unknown","category":"scroll"},
+
+    "velvet_pouch":{"quantity":1,"identified":true,"level":0,"description":"This small velvet pouch can store many small items in it, such as seeds and runestones.","category":"bag"},
+
+    "scroll_of_identify":{"quantity":1,"identified":true,"level":0,"description":"This scroll permanently reveals all of the secrets of a single item.","category":"scroll"},
+
+    "potion_of_healing":{"quantity":1,"identified":true,"level":0,"description":"This elixir will rapidly restore your health and instantly cure many ailments.","category":"potion"},
+
+    "mail_armor_of_flow":{"glyph":"glyph of flow - This glyph manipulates the flow of water around the wearer, making them much faster when moving through it.","quantity":1,"identified":false,"level":1,"STRReq":13,"description":"Interlocking metal links make for a tough but flexible suit of armor.Typically this tier-3 armor blocks 0-6 damage and requires 14 strength to use properly. Probably this armor is too heavy for you.It is inscribed with a glyph of flow. This glyph manipulates the flow of water around the wearer, making them much faster when moving through it.","category":"armor"},
+
+    "seed_of_stormvine":{"quantity":1,"identified":true,"level":0,"description":"Throw this seed to the place where you want to grow a plant.Gravity affects the stormvine plant strangely, allowing its whispy blue tendrils to 'hang' on the air. Anything caught in the vine is affected by this, and becomes disoriented.","category":"seed"},
+
+    "turquoise_potion":{"quantity":1,"identified":false,"level":0,"description":"unknown","category":"potion"},
+
+    "ration_of_food":{"quantity":2,"identified":true,"level":0,"description":"Nothing fancy here: dried meat, some biscuits - things like that.","category":"food"},
+
+    "throwing_stone":{"quantity":3,"identified":true,"level":0,"STRReq":9,"description":"These stones are sanded down to make them able to be thrown with more power than a regular stone. Despite the craftsmanship they still aren't a very reliable weapon, but at least they won't stick to enemies.This tier-1 thrown weapon deals 2-5 damage and requires 9 strength to use properly. Because of your excess strength, you will deal up to 1 bonus damage with this weapon.This weapon is designed to be used at a distance, it is more accurate against distant enemies, but also much less accurate at melee range.Thrown weapons will wear out and break as they are used. This stack of weapons has 5/5 uses left before one breaks.","category":"weapon"},
+
+    "seed_of_earthroot":{"quantity":1,"identified":true,"level":0,"description":"Throw this seed to the place where you want to grow a plant.When a creature touches an earthroot, its roots create a kind of immobile natural armor around it.","category":"seed"},
+
+    "waterskin":{"quantity":1,"identified":true,"level":0,"description":"A container for liquid, made from leather and string, sealed with a cork stopper.The waterskin is currently being used to store healing water. The more full the waterskin is, the more you will be instantly healed when drinking from it. You will only drink as much as you need.","category":"waterskin"},
+
+    "seed_of_sungrass":{"quantity":1,"identified":true,"level":0,"description":"Throw this seed to the place where you want to grow a plant.Sungrass is renowned for its sap's slow but effective healing properties.","category":"seed"},
+
+    "pasty":{"quantity":1,"identified":true,"level":0,"description":"An authentic Cornish pasty with a traditional filling of beef and potato. Delicious!","category":"food"}},
+
+"talents":[{
+
+	"iron_will":{"tier":1,"level":0,"description":"+1: The max shield provided by the Warrior's seal is increased by 1.+2: The max shield provided by the Warrior's seal is increased by 2."},
+
+	"test_subject":{"tier":1,"level":0,"description":"+1: Whenever the Warrior identifies an item, he heals for 2 HP.+2: Whenever the Warrior identifies an item, he heals for 3 HP."},
+
+	"hearty_meal":{"tier":1,"level":0,"description":"+1: Eating heals the Warrior for 2 HP when he is below 50% health, and 3 HP when he is below 25% health.+2: Eating heals the Warrior for 3 HP when he is below 50% health, and 5 HP when he is below 25% health."},
+
+	"veterans_intuition":{"tier":1,"level":0,"description":"+1: The Warrior identifies weapons 1.75x faster and armor 2.5x faster.+2: The Warrior identifies weapons 2.5x faster and armor when he equips it."}},{"iron_stomach":{"tier":2,"level":0,"description":"+1: Eating food takes the Warrior 1 turn and grants him 75% damage resistance while eating.+2: Eating food takes the Warrior 1 turn and grants him 100% damage resistance while eating."},
+
+	"lethal_momentum":{"tier":2,"level":0,"description":"+1: When the Warrior lands a killing blow on an enemy with a physical weapon, it has a 67% chance to take 0 turns.+2: When the Warrior lands a killing blow on an enemy with a physical weapon, it has a 100% chance to take 0 turns."},
+
+	"improvised_projectiles":{"tier":2,"level":0,"description":"+1: The Warrior can blind an enemy for 2 turns by throwing any item that isn\u2019t a thrown weapon at them. This has a 50 turn cooldown.+2: The Warrior can blind an enemy for 3 turns by throwing any item that isn\u2019t a thrown weapon at them. This has a 50 turn cooldown."},
+
+	"liquid_willpower":{"tier":2,"level":0,"description":"+1: The Warrior instantly regains 50% of the shielding from his broken seal when drinking or throwing a potion.+2: The Warrior instantly regains 75% of the shielding from his broken seal when drinking or throwing a potion.The shield regeneration effect is doubled when using potions of strength, experience, mastery, or divine inspiration."},
+
+	"runic_transference":{"tier":2,"level":0,"description":"+1: The Warrior's broken seal can transfer regular glyphs in the same way it transfers an upgrade.+2: The Warrior's broken seal can transfer regular, powerful, and curse glyphs in the same way it transfers an upgrade."}},{"hold_fast":{"tier":3,"level":0,"description":"+1: When the Warrior waits he gains 0-2 armor until he moves.+2: When the Warrior waits he gains 0-4 armor until he moves.+3: When the Warrior waits he gains 0-6 armor until he moves."},
+
+	"strongman":{"tier":3,"level":0,"description":"+1: The Warrior's strength is increased by 8%, rounded down.+2: The Warrior's strength is increased by 13%, rounded down.+3: The Warrior's strength is increased by 18%, rounded down."}}]}

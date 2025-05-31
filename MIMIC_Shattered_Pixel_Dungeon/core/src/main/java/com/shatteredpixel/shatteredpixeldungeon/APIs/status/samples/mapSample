@@ -1,0 +1,186 @@
+[[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (empty_sp, crystal_key), (empty_sp, null), (empty, null), (empty, null), (empty_deco, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (empty_sp, indigo_potion), (empty_sp, null), (empty, null), (empty, null), (empty, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (empty, null), (empty, null), (empty, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (empty, null), (empty, null), (empty, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall_deco, null), (wall_deco, null), (wall_deco, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (empty, null), (empty, null), (empty, null), (wall, null), (wall_deco, null), (wall_deco, null), (wall_deco, null), (water, null), (water, null), (water, null), (wall_deco, null), (wall_deco, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, crimson_potion), (empty_sp, null), (empty_sp, null), (empty, null), (empty, null), (trap, worn_dart_trap), (door, null), (water, null), (water, null), (water, null), (water, null), (water, null), (water, null), (water, null), (water, null), (wall_deco, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall_deco, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (empty, null), (empty_deco, null), (empty, null), (wall, null), (wall_deco, null), (water, null), (water, null), (chasm, null), (empty_sp, null), (chasm, null), (water, null), (water, null), (water, null), (door, null), (empty, null), (empty_deco, null), (empty_deco, null), (water, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (chasm, null), (chasm, null), (empty_sp, null), (chasm, null), (chasm, null), (water, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (door, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (chasm, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (chasm, null), (empty, null), (empty, null), (wall, null), (empty, potion_of_healing), (empty, null), (empty, null), (water, null), (water, pasty), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty, null), (empty, null), (door, null), (water, null), (empty, null), (empty_sp, null), (empty_sp, null), (wall, null), (empty_sp, null), (empty_sp, null), (empty, marsupial_rat(8/8)), (trap, worn_dart_trap), (wall, null), (empty, null), (empty, null), (empty, null), (water, null), (water, iron_key), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (grass, null), (grass, null), (high_grass, null), (grass, null), (empty, null), (door, null), (empty, null), (wall, null), (wall, null), (water, null), (empty, null), (chasm, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (chasm, null), (trap, worn_dart_trap), (empty, marsupial_rat(8/8)), (wall, null), (empty, null), (exit, null), (empty, null), (water, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (empty, null), (grass, null), (grass, jade_potion), (empty, null), (empty, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (chasm, null), (chasm, null), (empty_sp, null), (chasm, null), (chasm, null), (empty, marsupial_rat(8/8)), (empty, null), (wall, null), (empty, null), (empty, null), (empty, null), (high_grass, null), (water, gold), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (empty, null), (empty, null), (empty, null), (empty, null), (empty, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (water, null), (chasm, null), (empty_sp, marsupial_rat(8/8), skeleton), (chasm, null), (empty, marsupial_rat(8/8)), (empty, null), (wall, null), (wall, null), (empty, null), (empty, null), (high_grass, null), (high_grass, null), (high_grass, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (empty, null), (empty, null), (empty, null), (empty_deco, null), (empty, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (water, null), (water, null), (empty, null), (empty, warrior), (empty, null), (empty, null), (wall, null), (wall, null), (empty, null), (empty, null), (high_grass, null), (grass, sewer_snake(4/4)), (high_grass, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (door, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (wall, null), (wall, null), (water, null), (water, null), (empty, null), (empty, null), (empty, null), (water, null), (door, null), (water, null), (grass, marsupial_rat(8/8)), (high_grass, null), (high_grass, null), (high_grass, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (empty_deco, null), (empty, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (door, null), (wall, null), (wall, null), (door, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (high_grass, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (empty, null), (entrance, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (grass, null), (grass, null), (grass, null), (high_grass, null), (high_grass, null), (empty, null), (empty, null), (empty, null), (empty_deco, null), (water, null), (door, null), (empty_sp, null), (empty_sp, null), (chasm, null), (empty_sp, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (empty, null), (water, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty, null), (empty, null), (empty_deco, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (chasm, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (empty_deco, null), (water, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (chasm, null), (empty_sp, null), (empty_sp, null), (chasm, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (door, null), (wall, null), (wall, null), (wall_deco, null), (wall_deco, null), (wall_deco, null), (wall, null), (high_grass, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (chasm, null), (empty_sp, scroll_of_identify), (empty_sp, null), (chasm, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (water, null), (wall_deco, null), (water, null), (water, null), (water, null), (water, null), (water, null), (high_grass, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (chasm, null), (empty_sp, null), (empty_sp, null), (chasm, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (chasm, null), (empty_sp, sewer_snake(4/4)), (empty_sp, null), (chasm, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (chasm, null), (chasm, null), (chasm, null), (chasm, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (locked_door, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (pedestal, crystal_chest), (empty, null), (empty, null), (empty_sp, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (empty, null), (water, null), (water, null), (empty_sp, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (water, null), (water, null), (pedestal, crystal_chest), (empty_sp, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)],
+
+[(wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null)]]
+
+
+
+
+
+
+
+
+
+
+[[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, (wall, null), (wall_deco, null), (wall_deco, null), (wall_deco, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, (wall, null), (wall_deco, null), (wall_deco, null), (wall_deco, null), (water, null), (water, null), (water, null), (wall_deco, null), (wall_deco, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, (door, null), (water, null), (water, null), (water, null), (water, null), (water, null), (water, null), (water, null), (water, null), (wall_deco, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, (wall, null), (wall_deco, null), (water, null), (water, null), (chasm, null), (empty_sp, null), (chasm, null), (water, null), (water, null), (water, null), (door, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, (wall, null), (water, null), (water, null), (chasm, null), (chasm, null), (empty_sp, null), (chasm, null), (chasm, null), (water, null), (water, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (chasm, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (chasm, null), (empty, null), (empty, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (empty, null), (empty, null), (door, null), (water, null), (empty, null), (empty_sp, null), (empty_sp, null), (wall, null), (empty_sp, null), (empty_sp, null), (empty, marsupial_rat(8/8)), (trap, worn_dart_trap), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, (wall, null), (grass, null), (grass, null), (high_grass, null), (grass, null), (empty, null), (door, null), (empty, null), (wall, null), (wall, null), (water, null), (empty, null), (chasm, null), (empty_sp, null), (empty_sp, null), (empty_sp, null), (chasm, null), (trap, worn_dart_trap), (empty, marsupial_rat(8/8)), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, (wall, null), (empty, null), (grass, null), (grass, jade_potion), (empty, null), (empty, null), (wall, null), (wall, null), (wall, null), (wall, null), (water, null), (water, null), (chasm, null), (chasm, null), (empty_sp, null), (chasm, null), (chasm, null), (empty, marsupial_rat(8/8)), (empty, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, (wall, null), (empty, null), (empty, null), (empty, null), (empty, null), (empty, null), (wall, null), unknown, unknown, (wall, null), (water, null), (water, null), (water, null), (chasm, null), (empty_sp, marsupial_rat(8/8), skeleton), (chasm, null), (empty, marsupial_rat(8/8)), (empty, null), (wall, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, (wall, null), (empty, null), (empty, null), (empty, null), (empty_deco, null), (empty, null), (wall, null), unknown, unknown, (wall, null), (water, null), (water, null), (water, null), (water, null), (empty, null), (empty, warrior), (empty, null), (empty, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, (wall, null), (wall, null), (wall, null), (door, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), unknown, unknown, (wall, null), (water, null), (wall, null), (wall, null), (water, null), (water, null), (empty, null), (empty, null), (empty, null), (water, null), (door, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, (wall, null), (empty_deco, null), (empty, null), (water, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, (wall, null), (door, null), (wall, null), (wall, null), (door, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, (wall, null), (empty, null), (entrance, null), (water, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, (wall, null), (empty, null), (water, null), (water, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, (wall, null), (empty_deco, null), (water, null), (water, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, (wall, null), (wall, null), (wall, null), (door, null), (wall, null), unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown],
+
+[unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown]]
+
+
+
+
+
+
+
+
+
+
+[{"(door, null)":[12,7]},
+{"(chasm, null)":[16,8]},
+{"(chasm, null)":[18,8]},
+{"(door, null)":[22,8]},
+{"(chasm, null)":[15,9]},
+{"(chasm, null)":[16,9]},
+{"(chasm, null)":[18,9]},
+{"(chasm, null)":[19,9]},
+{"(chasm, null)":[15,10]},
+{"(chasm, null)":[19,10]},
+{"(door, null)":[12,11]},
+{"(empty, marsupial_rat(8/8))":[20,11]},
+{"(trap, worn_dart_trap)":[21,11]},
+{"(high_grass, null)":[6,12]},
+{"(door, null)":[9,12]},
+{"(chasm, null)":[15,12]},
+{"(chasm, null)":[19,12]},
+{"(trap, worn_dart_trap)":[20,12]},
+{"(empty, marsupial_rat(8/8))":[21,12]},
+{"(grass, jade_potion)":[6,13]},
+{"(chasm, null)":[15,13]},
+{"(chasm, null)":[16,13]},
+{"(chasm, null)":[18,13]},
+{"(chasm, null)":[19,13]},
+{"(empty, marsupial_rat(8/8))":[20,13]},
+{"(chasm, null)":[16,14]},
+{"(empty_sp, marsupial_rat(8/8), skeleton)":[17,14]},
+{"(chasm, null)":[18,14]},
+{"(empty, marsupial_rat(8/8))":[19,14]},
+{"(empty, warrior)":[18,15]},
+{"(door, null)":[4,16]},
+{"(door, null)":[22,16]},
+{"(door, null)":[13,17]},
+{"(door, null)":[16,17]},
+{"(entrance, null)":[3,18]},
+{"(door, null)":[4,21]}]

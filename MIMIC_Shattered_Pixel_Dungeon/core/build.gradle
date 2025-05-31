@@ -1,0 +1,21 @@
+apply plugin: 'java-library'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+sourceCompatibility = targetCompatibility = appJavaCompatibility
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    api project(':SPD-classes')
+    implementation project(':services')
+    implementation 'org.json:json:20211205'
+    implementation 'org.java-websocket:Java-WebSocket:1.5.2'
+    implementation 'org.jsoup:jsoup:1.18.1'
+    implementation 'org.apache.commons:commons-collections4:4.4'
+    implementation 'org.jacoco:org.jacoco.core:0.8.8'
+    implementation 'org.apache.poi:poi:5.2.3'
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'
+    implementation 'org.apache.xmlbeans:xmlbeans:5.1.1'
+}

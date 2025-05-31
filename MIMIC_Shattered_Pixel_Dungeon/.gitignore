@@ -1,0 +1,58 @@
+# Built application files
+*.apk
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Gradle build files
+.gradle/
+build/
+release/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+#intellij project files
+*.iml
+*.idea
+.htmlReport/
+
+desktop/cov
+desktop/out
+
+test
+cov
+
+node_modules
+
+target/
+*.iml
+.idea/
+.project
+bin/
+.classpath
+.settings/
+jacoco-reports/
+jacoco-reports-html/
+jacoco-reports-html-merged/
+jacoco-reports-merged/
+out/
+cov/
+jacoco-metaData/
+jacoco-reports-temp/
+config.json
+
+# memory Stream exclude the memory stream java
+core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/agent/memory_system/*
+!core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/agent/memory_system/MemoryStream.js
+
+core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/agent/skill_library/*
+!core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/agent/skill_library/basic_skills/*
+!core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/agent/skill_library/basic_skills_prompts/*
+!core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/agent/skill_library/SkillManager.js
+!core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/agent/skill_library/skills_import.txt
+
+draft
