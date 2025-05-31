@@ -16,7 +16,7 @@ const BASIC_SKILL_PATH = `../skill_library/basic_skills_prompts/`;
 const SKILL_ROOT_PATH = `../skill_library/skill_${COLLECTION_NAME}/`;
 const MEMORY_ROOT_PATH = `../memory_system/${COLLECTION_NAME}/`;
 const SKILL_IMPORT_PATH = `com.codecool.dungeoncrawl.agent.skill_library.skill_${COLLECTION_NAME}`;
-const IS_INHERIT = false;   // If continue the old memories
+const IS_INHERIT = config.IS_CONTINUE;   // If continue the old memories
 
 const PERSONALITY = "aggressive";
 

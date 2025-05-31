@@ -37,26 +37,23 @@ Make sure your working directory is set to the `MIMIC` directory, as all command
 ## Run ChromaDB in Docker
 
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) on your machine.
+
 2. Launch Docker Desktop and ensure it is running.
-3. Install the ChromaDB package in the Node.js project.
 
-    ```bash
-    npm install -S chromadb
-    ```
-
-4. Pull the ChromaDB Docker image and set the configuration to run it without tenant support:
+3. Pull the ChromaDB Docker image and set the configuration to run it without tenant support:
 
     ```bash
     docker pull chromadb/chroma:latest
     docker run -p 8000:8000 chromadb/chroma --enable-tenant=False
     ```
-5. Run the ChromaDB Docker container with the following command:
+
+4. Run the ChromaDB Docker container with the following command:
 
     ```bash
     docker run -d -p 8000:8000 --name chromadb chromadb/chroma
     ```
 
-6. Make sure the ChromaDB server is running by checking the logs in Docker Desktop.
+5. Make sure the ChromaDB server is running by checking the logs in Docker Desktop.
 
 ## Configure the Settings
 1. Taking `config.json.example` file located in the `./MIMIC_Dungeon_Adventures` directory as an example to create the `config.json` file located in the same place.
@@ -75,6 +72,7 @@ Make sure your working directory is set to the `MIMIC` directory, as all command
    - "efficiency"
 4. Set the "PORT" to the desired port number for the server to run on. The default is 8080.
 5. Set the "IS_SMART_MONKEY" to `true` if you want to use the Smart Monkey baseline, or `false` if you want to use the Dumb Monkey baseline.
+6. Set the "IS_IN_EXP" to `false` ALL THE TIME. This is a functionality that is only used for the experiment and should not be changed by the user.
 
 ## Run the Game and Start the Server
 1. Run `./src/main/java/com/codecool/dungeoncrawl/App.java` file to start the game.
@@ -111,15 +109,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.jacoco.core.tools.ExecDumpClient.dump(ExecDumpClient.java:99)
 	at com.codecool.dungeoncrawl.agent.reporter.JacocoReporter.dumpData(JacocoReporter.java:304)
 	at com.codecool.dungeoncrawl.agent.reporter.JacocoReporter.dumpData(JacocoReporter.java:362)
-	at com.codecool.dungeoncrawl.gui.Main.refresh(Main.java:466)
-	at com.codecool.dungeoncrawl.agent.skill_library.basic_skills.Navigate.lambda$navigate$0(Navigate.java:47)
-	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
-	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
-	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
-	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
+	...
 ```
 
 ## Run MIMIC
@@ -134,7 +124,7 @@ java.net.ConnectException: Connection refused: connect
     ```bash
     node ./src/main/java/com/codecool/dungeoncrawl/agent/bridge/agentClient.js
     ```
-   
+
 3. After running the command, you should see the following output:
 
     ```

@@ -31,7 +31,9 @@ async function statusToPlanInput(memoryStream, status, latestBadPlans, isBoth) {
     // If it is only returning memories based on Utility
     if (!isBoth) {
         for (let id of relatedMemories) {
-            relatedTasks += JSON.stringify(memoryStream.memories[id].planSummary()) + "\n";
+            if (memoryStream.memories[id]) {
+                relatedTasks += JSON.stringify(memoryStream.memories[id].planSummary()) + "\n";
+            }
         }
 
         newStatus += "Related tasks did before: " + relatedTasks +'\n';
@@ -42,11 +44,15 @@ async function statusToPlanInput(memoryStream, status, latestBadPlans, isBoth) {
 
     // If it is returning memories based on Relevance and Preference separately
     for (let id of relatedMemories.R) {
-        relatedTasks += JSON.stringify(memoryStream.memories[id].planSummary()) + "\n";
-    }
 
+        if (memoryStream.memories[id]) {
+            relatedTasks += JSON.stringify(memoryStream.memories[id].planSummary()) + "\n";
+        }
+    }
     for (let id of relatedMemories.P) {
-        preferredTasks += JSON.stringify(memoryStream.memories[id].planSummary()) + "\n";
+        if (memoryStream.memories[id]) {
+            preferredTasks += JSON.stringify(memoryStream.memories[id].planSummary()) + "\n";
+        }
     }
 
     newStatus += "Related tasks did before: " + relatedTasks +'\n';

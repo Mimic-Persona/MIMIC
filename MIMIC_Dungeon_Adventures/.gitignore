@@ -19,4 +19,10 @@ node_modules
 src/main/java/com/codecool/dungeoncrawl/agent/memory_system/*
 !src/main/java/com/codecool/dungeoncrawl/agent/memory_system/MemoryStream.js
 
+src/main/java/com/codecool/dungeoncrawl/agent/skill_library/*
+!src/main/java/com/codecool/dungeoncrawl/agent/skill_library/basic_skills/*
+!src/main/java/com/codecool/dungeoncrawl/agent/skill_library/basic_skills_prompts/*
+!src/main/java/com/codecool/dungeoncrawl/agent/skill_library/SkillManager.js
+!src/main/java/com/codecool/dungeoncrawl/agent/skill_library/skills_import.txt
+
 draft

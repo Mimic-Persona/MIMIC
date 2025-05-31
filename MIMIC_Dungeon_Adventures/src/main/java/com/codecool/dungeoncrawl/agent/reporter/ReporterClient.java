@@ -18,14 +18,16 @@ public class ReporterClient extends WebSocketClient {
     // TODO: Define the constants before running the experiment
     // {"Achievement", "Adrenaline", "Aggression", "Caution", "Completion", "Curiosity", "Efficiency"}
     public static JSONObject config = jsonFileToDictionary("./MIMIC_Dungeon_Adventures/config.json");
-    public static final String PREFIX;
+    public static String PREFIX;
     public static ReporterClient reporterClient;
+    public static boolean IS_IN_EXP;
 
     static {
         assert config != null;
         try {
             PREFIX = config.getString("REPORT_PREFIX");
             reporterClient = new ReporterClient(config.getInt("PORT"));
+            IS_IN_EXP = config.getBoolean("IS_IN_EXP");
         } catch (JSONException e) {
             throw new RuntimeException(e);
         }
@@ -33,7 +35,6 @@ public class ReporterClient extends WebSocketClient {
 
     public static final long INTERVAL = 1000; // 1 second
     public static final int STOP_COUNT = 1000;
-    public static final boolean IS_IN_EXP = true;
 
     public static int actionCounter = -1;
     public static String action = "";

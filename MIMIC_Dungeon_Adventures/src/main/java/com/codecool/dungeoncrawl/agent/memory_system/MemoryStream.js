@@ -6,6 +6,7 @@ const {sendMessage} = require("../bridge/sendMessage");
 const config = require('../../../../../../../../config.json');
 
 const OPENAI_API_KEY = config.OPENAI_API_KEY;
+const CHROMA_DB_PORT = config.CHROMA_DB_PORT;
 
 const BOT_LOG_MSG = "memory_stream.MemoryStream:log";
 const BOT_ERR_MSG = "memory_stream.MemoryStream:error";
@@ -187,8 +188,12 @@ class MemoryStream {
         this.sequenceBadPlans = [];
         this.latestBadPlans = [];
 
-        this.client = new ChromaClient();
         this.embedder = new OpenAIEmbeddingFunction({ openai_api_key: OPENAI_API_KEY });
+
+        this.client = new ChromaClient({
+            path: `http://localhost:${CHROMA_DB_PORT}`,
+            embeddingFunction: this.embedder,
+        });
 
         this.socket = socket;
     }
@@ -237,7 +242,6 @@ class MemoryStream {
                 tenant,
                 database,
                 metadata: { "hnsw:space": this.similarityFunction },
-                embeddingFunction: this.embedder,
             });
         } catch (e) {
             if (e.message.includes("already exists")) {
@@ -246,6 +250,7 @@ class MemoryStream {
                     tenant,
                     database,
                 });
+                this.vectorStoreR.embeddingFunction = this.embedder;
             } else {
                 throw e;
             }
@@ -257,7 +262,6 @@ class MemoryStream {
                 tenant,
                 database,
                 metadata: { "hnsw:space": this.similarityFunction },
-                embeddingFunction: this.embedder,
             });
         } catch (e) {
             if (e.message.includes("already exists")) {
@@ -266,6 +270,7 @@ class MemoryStream {
                     tenant,
                     database,
                 });
+                this.vectorStoreP.embeddingFunction = this.embedder;
             } else {
                 throw e;
             }

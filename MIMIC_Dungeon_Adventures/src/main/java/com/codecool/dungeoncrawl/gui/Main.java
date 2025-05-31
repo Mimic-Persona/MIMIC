@@ -310,7 +310,7 @@ public class Main extends Application {
 
 
         if (gameServer == null) {
-            GLog.c("Agent Mode Enabled!");
+            GLog.c("MIMIC Mode Enabled!");
             gameServer = new GameServer(PORT);
             gameServer.setConnectionLostTimeout(0);
             gameServer.start();
