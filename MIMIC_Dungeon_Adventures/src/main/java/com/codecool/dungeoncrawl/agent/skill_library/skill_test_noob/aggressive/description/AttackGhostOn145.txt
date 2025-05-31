@@ -1,5 +1,0 @@
-public class AttackGhostOn145 {
-	public static void attackGhostOn145() {
-		// The function initiates an attack on a Ghost located at coordinates (14, 5), logs the start of the attack, attempts to kill the Ghost using a method, and then logs whether the attack was successful or not.
-	}
-}
