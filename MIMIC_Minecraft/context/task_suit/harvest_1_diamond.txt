@@ -1,0 +1,6 @@
+Your final goal is to harvest 1 diamond.
+Guidance:
+1. Find a place to mine. You'll need an iron_pickaxe to mine diamonds, so make sure you have one in your inventory.
+2. Once you get an iron_pickaxe, you should start mining! Diamonds are found fairly deep underground around 11-16 level, so you'll need to dig down to find them.
+3. Once you've found a diamond, simply mine it with your iron_pickaxe, and it will be added to your inventory.
+4. Follow the personality and once you think you are ready, you have to accomplish the task. Thinking about your personality and see when you should start mining diamonds.

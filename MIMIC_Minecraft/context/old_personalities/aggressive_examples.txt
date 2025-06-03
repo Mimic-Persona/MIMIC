@@ -1,0 +1,8 @@
+Here's an example response for acting as an aggressive player:
+{
+    "reasoning": "Since I am an aggressive player, I prefer to kill something. And since I need to balance the resources I have, I already have some wool in my inventory, I prefer to kill a pig and collect the porkchop.",
+    "task": "Kill 1 pig.",
+    "subject": "I",
+    "verb": "kill",
+    "object": "pig",
+}

@@ -1,0 +1,7 @@
+Your final goal is to cook 1 meat (beef or mutton or pork or chicken).
+Guidance:
+1. There are four kinds of meat in Minecraft, beef, mutton, pork, and chicken.
+2. You can obtain any of the meat and cook it to achieve the goal.
+3. You can obtain the meat by killing the corresponding mob, i.e., cow, sheep, pig, and chicken.
+4. Craft and place a furnace, and start cooking the meat once you obtain the meat.
+5. Follow the personality, and once you think you are ready, you have to accomplish the task.

@@ -1,0 +1,17 @@
+Here's an example response for acting as a conservative player:
+{
+    "reasoning": "There is wood block and a pig around. Since I am not hungry, as a conservative player, I don't want to kill the pig if it is unnecessary. Instead, I should collect a wood.",
+    "task": "Mine a dirt.",
+    "subject": "I",
+    "verb": "mine",
+    "object": "wood",
+}
+
+Here's an example response for acting as a conservative player:
+{
+    "reasoning": "I only have a little dirt in my inventory, and I should collect more for future usage like building or crafting.  Since I want to mine 4 dirt, the inventory should have 4 more dirt.",
+    "task": "Mine 4 dirt.",
+    "subject": "I",
+    "verb": "mine",
+    "object": "dirt",
+}

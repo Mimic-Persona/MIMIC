@@ -1,0 +1,6 @@
+Your final goal is to shear a sheep.
+Guidance:
+1. This task requires you to find a sheep and shear it.
+2. To shear a sheep, you need to craft a shear with two iron ingots first.
+3. Once you have a shear in your inventory, equip it, find a sheep and shear it.
+4. Follow the personality, and once you think you are ready, you have to accomplish the task.
