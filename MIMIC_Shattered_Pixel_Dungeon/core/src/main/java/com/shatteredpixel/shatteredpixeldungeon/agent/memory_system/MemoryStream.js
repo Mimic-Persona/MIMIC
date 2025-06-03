@@ -241,6 +241,7 @@ class MemoryStream {
                 name: `${this.persona}_memory_collectionR_${this.collectionName}`,
                 tenant,
                 database,
+                embeddingFunction: this.embedder,
                 metadata: { "hnsw:space": this.similarityFunction },
             });
         } catch (e) {
@@ -249,6 +250,7 @@ class MemoryStream {
                     name: `${this.persona}_memory_collectionR_${this.collectionName}`,
                     tenant,
                     database,
+                    embeddingFunction: this.embedder,
                 });
                 this.vectorStoreR.embeddingFunction = this.embedder;
             } else {
@@ -261,6 +263,7 @@ class MemoryStream {
                 name: `${this.persona}_memory_collectionP_${this.collectionName}`,
                 tenant,
                 database,
+                embeddingFunction: this.embedder,
                 metadata: { "hnsw:space": this.similarityFunction },
             });
         } catch (e) {
