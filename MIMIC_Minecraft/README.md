@@ -31,7 +31,7 @@ Download and install Minecraft from the [official website](https://www.minecraft
 2. Open it and select the `Client` tab.
 3. Select the `Minecraft Version` to 1.19, and `Loader Version` to 0.14.21. These versions are tested and working with MIMIC.
 
-   ![Minecraft-1](../images/Minecraft-1.png)
+   ![Minecraft-1](../images/MC/Minecraft-1.png)
 
 4. Click on the `Install` button to install the Fabric Loader. Make sure none of the Minecraft launchers or games is running when you are installing the Fabric Loader.
 
@@ -54,22 +54,22 @@ Download and install Minecraft from the [official website](https://www.minecraft
 
 ### Start the Game
 1. Open the Minecraft Launcher and click on the `Installations` tab.
-   ![Minecraft-2](../images/Minecraft-2.png)
+   ![Minecraft-2](../images/MC/Minecraft-2.png)
 
 2. Click on the `New Installation` button to create a new installation.
 
-   ![Minecraft-3](../images/Minecraft-3.png)
+   ![Minecraft-3](../images/MC/Minecraft-3.png)
 
 3. Configure the installation as follows, and then click on the `Install button:
    - Name: MIMIC Environment
    - Version: fabric-loader-0.14.21-1.19
 
-   ![Minecraft-4](../images/Minecraft-4.png)
+   ![Minecraft-4](../images/MC/Minecraft-4.png)
 
 4. After the installation is complete, it would automatically start the Game in this version. 
 If no, please go back to the Play tab, and select the `MIMIC Environment` installation you just created, and click on the `Play` button.
 
-   ![Minecraft-5](../images/Minecraft-5.png)
+   ![Minecraft-5](../images/MC/Minecraft-5.png)
 
 ### Start the Server
 1. While in the game, click on the `Singleplayer` button, and then click on the `Create New World` button.
@@ -80,25 +80,25 @@ If no, please go back to the Play tab, and select the `MIMIC Environment` instal
    - Difficulty: Peaceful
    - Allow Cheats: ON
    
-   ![Minecraft-6](../images/Minecraft-6.png)
+   ![Minecraft-6](../images/MC/Minecraft-6.png)
 
 3. Once in the game, check if you have all the mods we need by pressing on the key `Escape` and click on the `Mods` button. You should see the following mods listed:
 
-   ![Minecraft-7](../images/Minecraft-7.png)
+   ![Minecraft-7](../images/MC/Minecraft-7.png)
 
 4. Then, get back to the game and press the key `Escape` again, and click on the `Open to LAN` button to open a local server for MIMIC.
 
-   ![Minecraft-8](../images/Minecraft-8.png)
+   ![Minecraft-8](../images/MC/Minecraft-8.png)
 
 5. Configure the LAN server as follows, and then click on the `Start LAN World` button:
    - Game Mode: Survival
    - Allow Cheats: ON
 
-    ![Minecraft-9](../images/Minecraft-9.png)
+    ![Minecraft-9](../images/MC/Minecraft-9.png)
 
 6. Once the LAN server is started, you should see a message in the chat window indicating that the server is running, along with the port number. For example:
 
-   ![Minecraft-10](../images/Minecraft-10.jpeg)
+   ![Minecraft-10](../images/MC/Minecraft-10.jpeg)
 
 7. Take this port number as the `MC_SERVER_PORT` in the `./MIMIC_Minecraft/config.json` file, which is used to connect MIMIC to the Minecraft server later.
 The detailed instruction to set the `config.json` file will be introduced later.
@@ -218,7 +218,7 @@ According to the example screenshot, the port number is `60790`.
 
    - You will also see the following output in the Minecraft chat window:
 
-    ![Minecraft-11](../images/Minecraft-11.png)
+    ![Minecraft-11](../images/MC/Minecraft-11.png)
 
 3. Press key `T` to open the in-game chat window, and type the command `b` to start MIMIC.
 
