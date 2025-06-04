@@ -12,6 +12,13 @@
 
 This game is a modified version dedicated to MIMIC, check the original game from https://github.com/stelmaszczykadrian/Dungeon-Adventures
 
+## Game States
+Notice, the game states are defined by the researchers according to the understanding to the game and the code.
+They are not necessarily the same as the game states intentionally done by the original game developers since the original game states were not provided in the original game repository.
+As a result, these game states are subject to change in the future, and none of them is used in the evaluation of MIMIC.
+
+![DA Game States](../images/DA/DA_Game_States.png)
+
 # How to Run MIMIC
 
 ## Prerequisites

@@ -16,3 +16,22 @@ Please find all the prompts used in the `context` directory. Each prompt is tail
 MIMIC-Persona: Doing everything for this project.
 
 ChatGPT: As the only artist in this group making the Avatar.
+
+# Overview of MIMIC
+
+![Overview](./images/FORMAL_MIMIC_Overview_Single_Column.png)
+
+# Design of MIMIC
+
+## Abstract Workflow
+![Abstract Workflow](./images/MIMIC_Abstract_Workflow.png)
+
+## Detailed Workflows
+![Detailed Workflows](./images/MIMIC_Workflow_with_Hybrid_Planner.png)
+
+## Hybrid Planner Architecture
+![Hybrid Planner Architecture](./images/MIMIC_Hybrid_Planner_Workflow.png)
+
+[//]: # (## Memory System Architecture)
+
+[//]: # (![Memory System Architecture]&#40;./images/MIMIC_Memory_System_Workflow.png&#41;)
