@@ -6,6 +6,12 @@ In this repository, you will find the code and instructions to run MIMIC, a Larg
 # How to Run MIMIC
 Please go to the corresponding game directory to find the instructions on how to run MIMIC for that specific game.
 
+# Prompts
+Please find all the prompts used in the `context` directory. Each prompt is tailored to the specific game and personality traits of the agent:
+- [Dungeon Adventure](./MIMIC_Dungeon_Adventures/src/main/java/com/codecool/dungeoncrawl/agent/context)
+- [Shattered Pixel Dungeon](./MIMIC_Shattered_Pixel_Dungeon/core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/agent/context)
+- [Minecraft](./MIMIC_Minecraft/context)
+
 # Acknowledgements
 MIMIC-Persona: Doing everything for this project.
 
