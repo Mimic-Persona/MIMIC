@@ -167,8 +167,8 @@ memory_system/*
 skill_library/*
 !skill_library/SkillManager.js
 !skill_library/skills_import.txt
-!skill_library/basic_skills/*
-!skill_library/basic_skills_prompts/*
+!skill_library/basic_skills
+!skill_library/basic_skills_prompts
 
 data
 
